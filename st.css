@@ -1,0 +1,124 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #f2f2f2;
+}
+
+header {
+  background-color: #ffffff;
+  color: white;
+  padding: 30px;
+  text-align: center;
+}
+.judul-header h1 {
+  font-size: 50px;
+  color: #fffdfd;
+  margin: 10px 0;
+}
+.judul-header p1 {
+  font-size: 35px;
+  color: #fffdfd;
+  margin: 10px 0;
+}
+.judul-header p {
+  font-size: 20px;
+  color: #fffdfd;
+  margin: 10px 0;
+}
+.header-container {
+  display: flex;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #02365b;
+  color: white;
+}
+
+.logo {
+  width: 100px;
+  height: auto;
+  margin-right: 15px;
+}
+.services, .form-section {
+  padding: 20px;
+  background-color: white;
+  margin: 20px auto;
+  max-width: 600px;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+.galeri {
+  padding: 20px;
+  text-align: center;
+  background-color: #f7f7f7;
+}
+
+.galeri h2 {
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.galeri-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  justify-content: center;
+}
+
+.galeri-container img {
+  width: 300px;
+  height: auto;
+  object-fit: contain;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s;
+}
+
+.galeri-container img:hover {
+  transform: scale(1.05);
+}
+.services ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.services li {
+  padding: 8px 0;
+  font-size: 16px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+label, input, select, button {
+  margin-top: 10px;
+}
+
+input, select {
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+button {
+  margin-top: 20px;
+  padding: 10px;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #218838;
+}
+
+footer {
+  text-align: center;
+  padding: 15px;
+  background-color: #eee;
+  font-size: 14px;
+}
